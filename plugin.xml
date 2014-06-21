@@ -1,0 +1,17 @@
+<plugin name='entities' version='0.1' grailsVersion='2.4 &gt; *'>
+  <author>Your name</author>
+  <title>Entities Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/entities</documentation>
+  <type>EntitiesGrailsPlugin</type>
+  <resources>
+    <resource>com.scrum.Comment</resource>
+    <resource>com.scrum.Project</resource>
+    <resource>com.scrum.Task</resource>
+    <resource>com.scrum.auth.AuthenticationToken</resource>
+    <resource>com.scrum.auth.Role</resource>
+    <resource>com.scrum.auth.User</resource>
+    <resource>com.scrum.auth.UserRole</resource>
+  </resources>
+</plugin>
